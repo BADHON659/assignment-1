@@ -12,12 +12,29 @@ nav{ display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 50px;
+    list-style: none;
     
 }
 nav ul li{
-    list-style: none;
+    
+    
 
 }
+.letter {
+    background: #d9f2e3;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px;
+    text-align: center;
+  }
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
 
 
 /* shared style */
@@ -26,6 +43,16 @@ nav ul li{
     border-color: #006A50;
     border-radius: 5px;
 }
+.opinion button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style: none;
+  }
+  
 /* banner style */
 .banner{
     display: flex;
